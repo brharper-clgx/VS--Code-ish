@@ -10,6 +10,7 @@
   <action id="Arrangement.Alias.Rule.Match.Condition.Move.Up" />
   <action id="Arrangement.Rule.Match.Condition.Move.Down" />
   <action id="Arrangement.Rule.Match.Condition.Move.Up" />
+  <action id="ChangesView.GroupBy.Directory" />
   <action id="CheckinProject" />
   <action id="ChoosePrevSubsequentPropertyValueEditorAction" />
   <action id="CloseAllEditors">
@@ -19,11 +20,13 @@
     <keyboard-shortcut first-keystroke="ctrl f4" />
     <keyboard-shortcut first-keystroke="ctrl w" />
   </action>
+  <action id="CollapseSelection" />
   <action id="Console.Execute.Multiline" />
   <action id="Console.Jdbc.Execute" />
   <action id="Console.Jpa.GenerateSql" />
   <action id="DirDiffMenu.SynchronizeDiff.All" />
   <action id="EditorChooseLookupItemCompleteStatement" />
+  <action id="EditorChooseLookupItemDot" />
   <action id="EditorCompleteStatement" />
   <action id="EditorDeleteLine">
     <keyboard-shortcut first-keystroke="shift ctrl k" />
@@ -39,6 +42,11 @@
   <action id="EditorStartNewLineBefore">
     <keyboard-shortcut first-keystroke="shift ctrl enter" />
   </action>
+  <action id="FileChooser.TogglePathShowing" />
+  <action id="GotoFile">
+    <keyboard-shortcut first-keystroke="shift ctrl n" />
+    <keyboard-shortcut first-keystroke="ctrl p" />
+  </action>
   <action id="Groovy.Shell.Execute" />
   <action id="InsertLiveTemplate" />
   <action id="KotlinShellExecute" />
@@ -50,7 +58,12 @@
   <action id="MoveLineUp">
     <keyboard-shortcut first-keystroke="alt up" />
   </action>
+  <action id="ParameterInfo" />
   <action id="ShowContent" />
+  <action id="ShowIntentionActions">
+    <keyboard-shortcut first-keystroke="alt enter" />
+    <keyboard-shortcut first-keystroke="ctrl period" />
+  </action>
   <action id="SplitHorizontally">
     <keyboard-shortcut first-keystroke="shift ctrl back_slash" />
   </action>
